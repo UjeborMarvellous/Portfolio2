@@ -7,15 +7,15 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div className="bg-black/80 h-full">
-      <div className="w-full h-full bg-gradient-to-r ">
+    <div className="bg-black/90 h-full">
+      <div className="w-full h-full relative">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="text-[1.5rem] lg:text-6xl md: text-white font-sora font-semibold py-10 tracking-wider"
+            className="2xl:text-8xl lg:text-7xl md:text-6xl sm:text-3xl text-3xl md: text-white font-sora font-semibold py-10 tracking-wider"
           >
             Transforming Ideas <br /> Into{" "}
             <span className="text-pink-600">Digital Reality</span>
@@ -25,7 +25,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm text-white xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className=" text-white xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 2xl:text-2xl lg:text-xl md:text-xl sm:text-[.8rem] text-[.8rem]"
           >
             Elevating User Experiences with a passion for front-end development,
             using the power of HTML, CSS, React, Tailwind CSS, Next js,
@@ -57,7 +57,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{duration: 1, ease: 'easeInOut' }}
-          className="w-full h-full max-w-[90rem] max-h-[768px] absolute object-contain mt-[18%] ml-[40%]"
+          className="w-full h-full max-w-[90rem] max-h-[768px] absolute object-contain mt-[23%] ml-[35%]"
         >
           <Avatar />
         </motion.div>

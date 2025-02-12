@@ -12,7 +12,7 @@ const Socials = () => {
         <RiYoutubeLine />
       </Link>
       <Link
-        href={"https://instagram.com/bogiecoder?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"}
+        href={"https://www.instagram.com/marvellousujebor?igsh=MXBnYTNiOGlwdjU0Nw=="}
         className="hover:text-pink-600 transition-all duration-300"
       >
         <RiInstagramLine />
@@ -24,7 +24,7 @@ const Socials = () => {
         <FaFacebookF />
       </Link>
       <Link
-        href={"/"}
+        href={"https://www.linkedin.com/in/marvellous-ujebor-023679226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}
         className="hover:text-pink-600 transition-all duration-300"
       >
         <FaLinkedinIn />

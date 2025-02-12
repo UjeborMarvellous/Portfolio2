@@ -1,16 +1,16 @@
 // testimonial data
 const testimonialData = [
   {
-    image: '/black03.jpg',
-    name: 'Okeymmadu Eric',
+    image: '/Loen.jpg',
+    name: 'Leonardo',
     message:
-      'I gained remarkable value from his service; he fully harnessed the potential of the work I entrusted to him, exceeding my expectations with exceptional results.',
+      `Working with Marvellous on our hotels booking website was fantastic. He delivered a visually stunning, user-friendly site that has boosted our online presence and direct bookings. Marvellou's attention to detail, responsiveness, and dedication were exceptional. The website works flawlessly across all devices, and we've received numerous compliments. Highly recommend Marvellous for any online booking project.`,
   },
   {
     image: '/t-avt-2.png',
-    name: 'Victory Sarah',
+    name: 'Jane Chukwu Founder of AmandasWears Fashion',
     message:
-      'The outcomes I obtained were exceptional; his service went above and beyond my initial expectations.I am extremely pleased with the level of service I received.',
+      `As a fashion entrepreneur in Australia, I needed an elegant, user-friendly eCommerce website, and Marvellous delivered beyond expectations! The sleek design, smooth navigation, and stunning visuals perfectly showcase my luxury African fashion pieces. Customers love the experience, and sales have increased. Truly a game-changer for my brand! `,
   },
   {
     image: '/t-avt-3.png',
@@ -50,7 +50,7 @@ const WorkSlider = () => {
                   <div className="mb-2 mx-auto">
                     <Image src={person.image} width={100} height={100} alt="" className="rounded-2xl"/>
                   </div>
-                  <div className="text-lg">{person.name}</div>
+                  <div className="2xl:text-2xl lg:text-xl md:text-xl sm:text-sm text-[.8rem]">{person.name}</div>
                   <div className="text-[12px] uppercase font-extralight tracking-widest">{person.position}</div>
                 </div>
               </div>
@@ -58,7 +58,7 @@ const WorkSlider = () => {
                 <div className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0">
                   <FaQuoteLeft />
                 </div>
-                <div className="xl:text-lg text-center md:text-left ">{person.message}</div>
+                <div className="xl:text-lg text-center md:text-left 2xl:text-2xl lg:text-xl md:text-xl sm:text-[.6rem] text-[.6rem] ">{person.message}</div>
               </div>
             </div>
           </SwiperSlide>
