@@ -13,9 +13,9 @@ import {
   FaFigma,
   FaBootstrap,
 } from "react-icons/fa";
-
+import { SiSupabase } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
-
+import { IoLogoFirebase } from "react-icons/io5";
 import { SiNextdotjs, SiAdobephotoshop } from "react-icons/si";
 import ParticlesContainer from "../../components/ParticlesContainer";
 
@@ -35,6 +35,8 @@ const aboutData = [
           <FaWordpress key="wordpress" />,
           <FaBootstrap key="bootstrap" />,
           <BiLogoTypescript key="typescript" />,
+          <SiSupabase key="supabase" />,
+          <IoLogoFirebase key="firebase" />,
         ],
       },
       {
@@ -115,7 +117,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="text-[1.1rem] lg:text-5xl text-white font-sora font-semibold py-5 tracking-wide"
+            className="2xl:text-5xl lg:text-5xl md:text-2xl sm:text-[1rem] text-[1rem] text-white font-sora font-semibold py-5 tracking-wide"
           >
             Beautiful <span className="text-pink-600"> designs are </span>
             spawned from <br /> dazzled stories.
@@ -125,7 +127,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[600px] mx-auto xl:mx-0 pb-7 xl:mb-12 px-2 xl:px-0"
+            className="max-w-[600px] 2xl:text-2xl lg:text-xl md:text-xl sm:text-[.7rem] text-[.7rem] mx-auto xl:mx-0 pb-7 xl:mb-12 px-2 xl:px-0"
           >
             5 years ago, I began freelancing as a developer. since then, I have
             done remote work for agencies, counsulted for startups, and
@@ -189,16 +191,16 @@ const About = () => {
               );
             })}
           </div>
-          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:text-left xl:items-start">
+          <div className=" xl:py-6 flex flex-col xl:gap-y-4 items-center xl:text-left xl:items-start">
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div
                   key={itemIndex}
                   className="flex-1 flex text-[12px] lg:text-[12.2px] flex-col md:flex-row max-w-max gap-x-2 text-white/90"
                 >
-                  <div className="font-light mb-2 md:mb-0">{item.title}</div>
+                  <div className="2xl:text-2xl lg:text-xl md:text-xl sm:text-[.6rem] text-[.6rem]">{item.title}</div>
                   <div className="hidden md:flex">-</div>
-                  <div>{item.stage}</div>
+                  <div className="2xl:text-2xl lg:text-xl md:text-xl sm:text-[.6rem] text-[.6rem]">{item.stage}</div>
                   <div className="flex gap-x-4">
                     {item.icons?.map((icon, itemIndex) => {
                       return <div className="text-2xl transition-all duration-500" key={itemIndex}>{icon}</div>;

@@ -45,9 +45,9 @@ const workSlides = {
         },
         {
           title: "title",
-          path: "/thumb4.JPG",
-          Name: 'Life Style of Music',
-          Links: "/",
+          path: "/thumb4.jpg",
+          Name: 'Hotel Booking In Italy',
+          Links: "https://suiterosso24jesi.com/",
         },
         {
           title: "title",
